@@ -5,20 +5,25 @@ namespace IntroProgSelection
     class Program
     {
         static void Main(string[] args)
-        {
-            int age;
-            age = 18;
-            int lage= 18;
+        
+   {
+      Console.WriteLine("Enter username:");
 
-            if(age > lage) 
-            {
-                Console.WriteLine("drink");
-            } 
-            else
-            {
-                Console.WriteLine("don't dtink");
-            }
-            Console.WriteLine("program finished!");
-        }
+      
+      string userName = Console.ReadLine();
+     
+      if (userName == "Meow") 
+    {
+    Console.WriteLine("Login Successful");
+    }
+    else
+    {
+        Console.WriteLine("Login Unsuccesful");
+    }
+   
+
+     
+  
+    }
     }
 }
